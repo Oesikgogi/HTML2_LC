@@ -1,0 +1,27 @@
+.Save_jh {
+    margin: 0; 
+    padding: 50px 10px 10px 10px;
+    font-family: Arial, sans-serif;     
+    display: flex;
+    justify-content: center;
+    color: black(247, 213, 213);
+    font-size: 30px;
+}
+
+.Save_img_jh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 10px 10px;
+}
+
+.Text_jh {
+    margin: 0; 
+    padding: 30px 10px 10px 10px;
+    font-family: Arial, sans-serif;     
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 18px;
+}
+
