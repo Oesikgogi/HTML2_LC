@@ -1,0 +1,164 @@
+
+/*header*/
+header {
+    background-image: url('darker_back.jpg');
+    background-size: cover;
+    padding: 100px;
+}
+
+
+
+.headerRight_h {
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.KH_menu{
+    background-color: whitesmoke; /* 배경색 */
+    color: black; /* 텍스트 색상 */
+}
+.headerInput_h {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.headerSide_h {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.min_input_h {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/*drop it로고*/
+.logo_gy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-text {
+    font-size: 140px; /* 텍스트 크기 조정 */
+    font-weight: 600;
+    color: white; /* 초기 텍스트 색상 설정 */
+    -webkit-text-stroke-width: 4px; /* 테두리 두께 설정 */
+    -webkit-text-stroke-color: black; /* 테두리 색상 설정 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    
+
+    border: none; /* 외곽선 스타일 설정 */
+    display: inline-block; /* 요소를 인라인 블록으로 표시하여 텍스트 크기에 맞게 자동으로 조정되도록 함 */
+    transition: color 0.3s; /* 색상 변화에 애니메이션 효과 추가 */
+}
+
+.big-text:hover {
+    color: pink; /* 마우스를 요소 위로 가져갈 때 텍스트 색상 변경 */
+}
+
+.line_remove{
+        text-decoration: none; /* 밑줄 제거 */
+}
+
+.recom_gy {
+    display: flex;
+    flex-wrap: wrap; /* 요소들이 한 줄에 나열되되 너비를 벗어나면 다음 줄로 넘어감 */
+    justify-content: center; /* 가로로 중앙 정렬 */
+    align-items: center; /* 세로로 중앙 정렬 */
+}
+
+.r_word_gy {
+    margin: 5px; /* 요소들 사이에 간격을 주기 위해 마진 설정 */
+    font-weight: 600;
+    background-color: whitesmoke; /* 배경색 */
+    color: black; /* 텍스트 색상 */
+}
+
+
+/*main1*/
+.main1_title_LC {
+    text-align: center;
+    /*padding-top: 500px;*/
+    padding-top: 100px;
+}
+
+.main1_introduction_LC {
+    text-align: center;
+    color: grey;
+}
+
+.main1_image_LC {
+    text-align: center;
+}
+
+/*main2*/
+.image_kjs{
+    padding-top:200px;
+    margin-left:40px;
+    text-align: center;
+  }
+  
+  .title_kjs{
+      padding-top: 50px;
+      text-align: center;
+      font-weight: bolder;
+  
+  }
+  
+  
+  .text_kjs{
+      text-align: center;
+      padding-top:20px;
+      font-size:18px;
+      font-weight: 400;
+      
+  }
+  
+  
+  .instagram_kjs{
+    background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+
+/*main3*/
+.Save_jh {
+    margin: 0; 
+    padding: 50px 10px 10px 10px;
+    font-family: Arial, sans-serif;     
+    display: flex;
+    justify-content: center;
+    color: black(247, 213, 213);
+    font-size: 30px;
+}
+
+.Save_img_jh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 10px 10px;
+}
+
+.Text_jh {
+    margin: 0; 
+    padding: 30px 10px 10px 10px;
+    font-family: Arial, sans-serif;     
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 18px;
+}
