@@ -86,12 +86,19 @@ header {
     color: black; /* 텍스트 색상 */
 }
 
+h2 {
+    color: #111;
+    font-size: 30px;
+}
 
+.main1_cr {
+    padding-bottom: 40px;
+}
 /*main1*/
 .main1_title_LC {
     text-align: center;
     /*padding-top: 500px;*/
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .main1_introduction_LC {
@@ -104,15 +111,19 @@ header {
 }
 
 /*main2*/
+.main2_cr{
+    background-color: #a9a6a73f;
+    padding-bottom: 40px;
+}
 .image_kjs{
-    padding-top:40px;
+    padding-top:20px;
     margin-left:40px;
     text-align: center;
 
   }
   
   .title_kjs{
-      padding-top: 50px;
+      padding-top: 20px;
       text-align: center;
       font-weight: bolder;
   
@@ -139,7 +150,7 @@ header {
 /*main3*/
 .Save_jh {
     margin: 0; 
-    padding: 50px 10px 10px 10px;
+    padding: 20px 10px 10px 10px;
     font-family: Arial, sans-serif;     
     display: flex;
     justify-content: center;
@@ -151,7 +162,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 10px 10px 10px;
+    padding: 20px 10px 10px 10px;
 }
 
 .Text_jh {
@@ -162,4 +173,116 @@ header {
     justify-content: center;
     color: grey;
     font-size: 18px;
+}
+
+/*Footer*/
+
+footer{
+    border-top: 1px solid rgba(21, 5, 5, 0.785);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #111;
+}
+
+.profile_cr{
+    padding: 60px 0 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.teamMember_cr {
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.teamMember_cr img{
+    width: 60%;
+    border-radius: 100px;
+}
+
+.teamMember_cr p{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.footerContainer_cr{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons_cr{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons_cr a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 45%;
+}
+
+.socialIcons_cr a i{
+    font-size: 30px;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons_cr a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons_cr a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav_cr{
+    margin: auto;
+    width: 560px;
+    height: 70px;
+}
+
+.footerNav_cr ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.footerNav_cr ul li a{
+    color: white;
+    padding: 0px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav_cr ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom_cr{
+    background-color: #000;
+    padding: 30px;
+    text-align: center;
+}
+
+.footerBottom_cr p{
+    color: white;
+}
+
+.designer_cr{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
 }
